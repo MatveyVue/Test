@@ -14,9 +14,10 @@
   <p style="font-family: Geologica; color: #636060; margin-left: 15px; font-size: 12px; margin-top: -10px;">3 hours ago</p>
   <p style="font-family: Geologica; color: #636060; font-size: 12px; margin-top: -27px; text-align: right; margin-right: 15px;">Viewed 1</p>
   </div>
-  </template>
+
+</template>
   
-  <style>
+<style>
   body {
     background-color: #101622;
     font-weight: normal;
@@ -64,7 +65,7 @@
 
   @media screen and (width: 390px) {
     input {
-      width: 370px;
+      width: 345px;
     }
 
     .job {
@@ -73,11 +74,11 @@
 
     .peop {
       width: 170px;
-      margin-left: 19px
+      margin-left: 10px
     }
 
     .jobs1 {
-      width: 370px;
+      width: 345px;
     }
   }
   
@@ -121,7 +122,7 @@
 
   @media screen and (width: 393px) {
     input {
-      width: 363px;
+      width: 350px;
     }
 
     .job {
@@ -130,11 +131,11 @@
 
     .peop {
       width: 170px;
-      margin-left: 22px;
+      margin-left: 15px;
     }
 
     .jobs1 {
-      width: 363px;
+      width: 350px;
     }
   }
 
