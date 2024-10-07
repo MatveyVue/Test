@@ -83,7 +83,7 @@ input {
 
 @media screen and (min-width: 405px) and (max-width: 417px) {
 input {
-  width: 370px;
+  width: 360px;
 }
 
 .job {
