@@ -1,7 +1,7 @@
 <template>
   <div style="margin-left: 15px;">
   <h1 style="font-family: Geologica; color: white; font-weight: normal;">Marketplace:</h1>
-  <input style="font-family: Geologica; font-weight: normal; font-size: 16px" placeholder="    Search..."><br>
+  <input style="font-family: Geologica; font-weight: normal; font-size: 16px" placeholder="   Search..."><br>
   <button class="job"><p style="font-family: Geologica; font-weight: normal; color: Black; font-size: 16px; margin-top: 5px;">Jobs</p></button>
   <button class="peop"><p style="font-family: Geologica; color: White; font-weight: normal; font-size: 16px; margin-top: 5px;">People</p></button>
   </div>
@@ -61,21 +61,21 @@
     margin-left: 15px;
     border: 1px solid white;
   }
-  
-  @media screen and (min-width: 375px) and (max-width: 404px) {
+
+  @media screen and (width: 390px) {
     input {
       width: 370px;
     }
-  
+
     .job {
       width: 170px;
     }
-  
+
     .peop {
       width: 170px;
-      margin-left: 30px;
+      margin-left: 19px
     }
-  
+
     .jobs1 {
       width: 370px;
     }
@@ -98,5 +98,61 @@
   .jobs1 {
     width: 370px;
   }
+  }
+
+  @media screen and (width: 375px) {
+    input {
+      width: 330px;
+    }
+
+    .job {
+      width: 160px;
+    }
+
+    .peop {
+      width: 160px;
+      margin-left: 18px;
+    }
+
+    .jobs1 {
+      width: 330px;
+    }
+  }
+
+  @media screen and (width: 393px) {
+    input {
+      width: 363px;
+    }
+
+    .job {
+      width: 170px;
+    }
+
+    .peop {
+      width: 170px;
+      margin-left: 22px;
+    }
+
+    .jobs1 {
+      width: 363px;
+    }
+  }
+
+  @media screen and (width: 430px) {
+    input {
+      width: 380px;
+    }
+
+    .job {
+      width: 170px;
+    }
+
+    .peop {
+      width: 170px;
+    }
+
+    .jobs1 {
+      width: 380px;
+    }
   }
   </style>
