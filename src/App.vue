@@ -38,7 +38,7 @@
     border-radius: 25px;
     border-color: white;
     border-width: 1px;
-    margin-top: 10px;
+    margin-top: 15px;
   }
   
   .peop {
