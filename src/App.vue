@@ -3,7 +3,7 @@
   <h1 style="font-family: Geologica; color: white; font-weight: normal;">Marketplace:</h1>
   <input style="font-family: Geologica; font-weight: normal; font-size: 16px" placeholder="    Search..."><br>
   <button class="job"><p style="font-family: Geologica; font-weight: normal; color: Black; font-size: 16px; margin-top: 5px;">Jobs</p></button>
-  <button class="peop"><p style="font-family: Geologica; color: White; font-weight: normal; font-size: 16px;">People</p></button>
+  <button class="peop"><p style="font-family: Geologica; color: White; font-weight: normal; font-size: 16px; margin-top: 5px;">People</p></button>
   </div>
   
   <div class="jobs1">
