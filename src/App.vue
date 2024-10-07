@@ -1,13 +1,18 @@
 <template>
-<div style="margin-left: 15px">
+<div style="margin-left: 15px;">
 <h1 style="font-family: Geologica; color: white;">Marketplace:</h1>
-<input style="font-family: Geologica;" placeholder="Search..."><br>
-<button class="job"><p style="font-family: Geologica;">Jobs</p></button>
-<button class="peop"><p style="font-family: Geologica;">People</p></button>
+<input style="font-family: Geologica;" placeholder="    Search..."><br>
+<button class="job"><p style="font-family: Geologica; color: Black;">Jobs</p></button>
+<button class="peop"><p style="font-family: Geologica; color: White;">People</p></button>
 </div>
 
-<div>
-  
+<div class="jobs1">
+<img src="https://i.postimg.cc/FK8K0bcd/IMG-1157.png" style="width: 30px; margin-left: 15px; margin-top: 15px;">
+<p style="font-family: Geologica; color: #97f492; font-size: 14px; margin-top: -32px; margin-left: 55px;">Jr. Game Designer</p><br>
+<p style="font-family: Geologica; color: #8a8686; font-size: 12px; margin-top: -32px; margin-left: 55px; line-height: 1,1px;">Penza,Russia</p>
+<p style="font-family: Geologica; color: #8a8686; line-height: 1,1%; margin-top: -10px; margin-left: 15px; font-size: 14px">It is important to pay attention to creating an atmospheric and intriguing game with an original plot and an attractive visual style.</p>
+<p style="font-family: Geologica; color: #636060; margin-left: 15px; font-size: 12px; margin-top: -10px;">3 hours ago</p>
+<p style="font-family: Geologica; color: #636060; font-size: 12px; margin-top: -27px; text-align: right; margin-right: 15px;">Viewed 1</p>
 </div>
 </template>
 
@@ -44,5 +49,54 @@ input {
   border-width: 1px;
   margin-top: 15px;
   margin-left: 40px;
+  position: fixed;
+}
+
+.jobs1 {
+  background-color: #272e38;
+  width: 400px;
+  height: 130px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 15px;
+  border: 1px solid white;
+}
+
+@media screen and (min-width: 375px) and (max-width: 404px) {
+  input {
+    width: 370px;
+  }
+
+  .job {
+    width: 170px;
+  }
+
+  .peop {
+    width: 170px;
+    margin-left: 30px;
+  }
+
+  .jobs1 {
+    width: 370px;
+  }
+}
+
+@media screen and (min-width: 405px) and (max-width: 417px) {
+input {
+  width: 370px;
+}
+
+.job {
+  width: 180px;
+}
+
+.peop {
+  width: 180px;
+  margin-left: 10px;
+}
+
+.jobs1 {
+  width: 370px;
+}
 }
 </style>
