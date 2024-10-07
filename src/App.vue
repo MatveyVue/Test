@@ -92,7 +92,7 @@ input {
 
 .peop {
   width: 180px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .jobs1 {
