@@ -55,7 +55,7 @@ input {
 .jobs1 {
   background-color: #272e38;
   width: 400px;
-  height: 130px;
+  height: 135px;
   border-radius: 20px;
   margin-top: 20px;
   margin-left: 15px;
