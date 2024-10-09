@@ -358,4 +358,10 @@
       width: 80px;
     }
   }
+
+  @media screen and (min-height: 600px) and (max-height: 655px) {
+    .bottom {
+      margin-top: 220px;
+    }
+  }
   </style>
