@@ -11,14 +11,14 @@
   <p style="font-family: Geologica; color: #97f492; font-size: 14px; margin-top: -32px; margin-left: 55px;">Jr. Game Designer</p><br>
   <p style="font-family: Geologica; color: #8a8686; font-size: 12px; margin-top: -32px; margin-left: 55px; line-height: 1,1px;">Penza,Russia</p>
   <p style="font-family: Geologica; color: #dbd7d7; line-height: 1,1%; margin-top: -10px; margin-left: 15px; font-size: 14px">It is important to pay attention to creating an atmospheric and intriguing game with an original plot and an attractive visual style.</p>
-  <p style="font-family: Geologica; color: #8a8686; margin-left: 15px; font-size: 12px; margin-top: -10px;">3 hours ago</p>
-  <p style="font-family: Geologica; color: #8a8686; font-size: 12px; margin-top: -27px; text-align: right; margin-right: 15px;">Viewed 1</p>
+  <p style="font-family: Geologica; color: #636060; margin-left: 15px; font-size: 12px; margin-top: -10px;">3 hours ago</p>
+  <p style="font-family: Geologica; color: #636060; font-size: 12px; margin-top: -27px; text-align: right; margin-right: 15px;">Viewed 1</p>
   </div>
 
-  <div class="bottom" style="margin-left: 15px; font-color: black;">
-  <button class="profile"><p style="margin-top: 5px; color: black; font-size: 13px">Profile</p></button>
-  <button class="market"><p style="margin-top: 5px; color: black; font-size: 13px">Marketplace</p></button>
-  <button class="message"><p style="margin-top: 5px; color: black; font-size: 13px">Messages</p></button>
+  <div class="bottom" style="margin-left: 15px;">
+  <button class="profile"><p style="margin-top: 5px;">Profile</p></button>
+  <button class="market"><p style="margin-top: 5px;">Marketplace</p></button>
+  <button class="message"><p style="margin-top: 5px;">Messages</p></button>
   </div>
 </template>
   
@@ -166,7 +166,6 @@
 
   .bottom {
     width: 360px;
-    margin-top: 350px;
   }
 }
 
@@ -264,6 +263,99 @@
 
     .market {
       margin-left: 15px;
+    }
+  }
+
+  @media screen and (min-width: 350px) and (max-width: 375px) {
+    input {
+      width: 330px;
+    }
+    
+    .job {
+      width: 155px;
+    }
+    
+    .peop {
+      width: 155px;
+      margin-left: 9px;
+    }
+    
+    .jobs1 {
+      width: 330px;
+    }
+  
+    .bottom {
+      width: 330px;
+    }
+
+    .market {
+      margin-left: 12px;
+    }
+
+    .message {
+      width: 80px;
+    }
+  }
+
+  @media screen and (min-width: 375px) and (max-width: 385px) {
+    input {
+      width: 330px;
+    }
+    
+    .job {
+      width: 155px;
+    }
+    
+    .peop {
+      width: 155px;
+      margin-left: 15px;
+    }
+    
+    .jobs1 {
+      width: 330px;
+    }
+  
+    .bottom {
+      width: 330px;
+    }
+
+    .market {
+      margin-left: 12px;
+    }
+
+    .message {
+      width: 80px;
+    }
+  }
+
+  @media screen and (min-width: 385px) and (max-width: 405px) {
+    input {
+      width: 350px;
+    }
+    
+    .job {
+      width: 155px;
+    }
+    
+    .peop {
+      width: 155px;
+      margin-left: 35px;
+    }
+    
+    .jobs1 {
+      width: 350px;
+    }
+  
+    .bottom {
+      width: 350px;
+    }
+
+    .market {
+      margin-left: 12px;
+    }
+
+    .message {
+      width: 80px;
     }
   }
   </style>
