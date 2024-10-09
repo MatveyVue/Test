@@ -359,7 +359,7 @@
     }
   }
 
-  @media screen and (min-height: 600px) and (max-height: 655px) {
+  @media screen and (min-height: 500px) and (max-height: 655px) {
     .bottom {
       margin-top: 220px;
     }
