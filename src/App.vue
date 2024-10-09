@@ -86,6 +86,7 @@
     margin-left: 15px;
     border: 1px solid black;
     font-family: Geologica;
+    font-color: black;
   }
 
   .market {
@@ -97,6 +98,7 @@
     margin-left: 15px;
     border: 1px solid black;
     font-family: Geologica;
+    font-color: black;
   }
 
   .message {
@@ -108,6 +110,7 @@
     margin-left: 15px;
     border: 1px solid black;
     font-family: Geologica;
+    font-color: black;
   }
 
   @media screen and (width: 390px) {
