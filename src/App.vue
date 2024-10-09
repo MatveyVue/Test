@@ -16,9 +16,9 @@
   </div>
 
   <div class="bottom" style="margin-left: 15px; font-color: black;">
-  <button class="profile"><p style="margin-top: 5px; color: black; font-size: 16px">Profile</p></button>
-  <button class="market"><p style="margin-top: 5px; color: black;">Marketplace</p></button>
-  <button class="message"><p style="margin-top: 5px; color: black;">Messages</p></button>
+  <button class="profile"><p style="margin-top: 5px; color: black; font-size: 13px">Profile</p></button>
+  <button class="market"><p style="margin-top: 5px; color: black; font-size: 13px">Marketplace</p></button>
+  <button class="message"><p style="margin-top: 5px; color: black; font-size: 13px">Messages</p></button>
   </div>
 </template>
   
