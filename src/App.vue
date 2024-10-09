@@ -11,8 +11,8 @@
   <p style="font-family: Geologica; color: #97f492; font-size: 14px; margin-top: -32px; margin-left: 55px;">Jr. Game Designer</p><br>
   <p style="font-family: Geologica; color: #8a8686; font-size: 12px; margin-top: -32px; margin-left: 55px; line-height: 1,1px;">Penza,Russia</p>
   <p style="font-family: Geologica; color: #dbd7d7; line-height: 1,1%; margin-top: -10px; margin-left: 15px; font-size: 14px">It is important to pay attention to creating an atmospheric and intriguing game with an original plot and an attractive visual style.</p>
-  <p style="font-family: Geologica; color: #636060; margin-left: 15px; font-size: 12px; margin-top: -10px;">3 hours ago</p>
-  <p style="font-family: Geologica; color: #636060; font-size: 12px; margin-top: -27px; text-align: right; margin-right: 15px;">Viewed 1</p>
+  <p style="font-family: Geologica; color: #8a8686; margin-left: 15px; font-size: 12px; margin-top: -10px;">3 hours ago</p>
+  <p style="font-family: Geologica; color: #8a8686; font-size: 12px; margin-top: -27px; text-align: right; margin-right: 15px;">Viewed 1</p>
   </div>
 
   <div class="bottom" style="margin-left: 15px; font-color: black;">
