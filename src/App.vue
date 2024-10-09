@@ -1,7 +1,7 @@
 <template>
   <div style="margin-left: 15px;">
-  <h1 style="font-family: Geologica; color: white; font-weight: normal;">Marketplace:</h1>
-  <input style="font-family: Geologica; font-weight: normal; font-size: 16px" placeholder="   Search..."><br>
+  <h1 style="font-family: Geologica; color: white; font-weight: normal; font-size: 26px;">Marketplace:</h1>
+  <input style="font-family: Geologica; font-weight: normal; font-size: 16px" placeholder="  Search..."><br>
   <button class="job"><p style="font-family: Geologica; font-weight: normal; color: Black; font-size: 16px; margin-top: 5px;">Jobs</p></button>
   <button class="peop"><p style="font-family: Geologica; color: White; font-weight: normal; font-size: 16px; margin-top: 5px;">People</p></button>
   </div>
@@ -15,6 +15,11 @@
   <p style="font-family: Geologica; color: #636060; font-size: 12px; margin-top: -27px; text-align: right; margin-right: 15px;">Viewed 1</p>
   </div>
 
+  <div class="bottom" style="margin-left: 15px;">
+  <button class="profile"><p style="margin-top: 5px;">Profile</p></button>
+  <button class="market"><p style="margin-top: 5px;">Marketplace</p></button>
+  <button class="message"><p style="margin-top: 5px;">Messages</p></button>
+  </div>
 </template>
   
 <style>
@@ -26,7 +31,7 @@
   input {
     background-color: #272e38;
     border-radius: 25px;
-    height: 35px;
+    height: 30px;
     width: 400px;
     border-color: white;
     border-width: 1px;
@@ -63,6 +68,48 @@
     border: 1px solid white;
   }
 
+  .bottom {
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 300px;
+    position: fixed;
+  }
+
+  .profile {
+    background-color: white;
+    border-radius: 18px;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border: 1px solid black;
+    font-family: Geologica;
+  }
+
+  .market {
+    background-color: #97f492;
+    border-radius: 18px;
+    width: 120px;
+    margin-top: 10px;
+    height: 30px;
+    margin-left: 15px;
+    border: 1px solid black;
+    font-family: Geologica;
+  }
+
+  .message {
+    background-color: white;
+    border-radius: 18px;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border: 1px solid black;
+    font-family: Geologica;
+  }
+
   @media screen and (width: 390px) {
     input {
       width: 345px;
@@ -79,6 +126,23 @@
 
     .jobs1 {
       width: 345px;
+    }
+
+    .bottom {
+      width: 345px;
+    }
+
+    .message{
+      width: 100px;
+      margin-left: 10px;
+    }
+
+    .profile {
+      margin-left: 12px;
+    }
+
+    .market {
+      margin-left: 10px
     }
   }
   
@@ -99,7 +163,11 @@
   .jobs1 {
     width: 370px;
   }
+
+  .bottom {
+    width: 360px;
   }
+}
 
   @media screen and (width: 375px) {
     input {
@@ -117,6 +185,23 @@
 
     .jobs1 {
       width: 330px;
+    }
+
+    .bottom {
+      width: 330px;
+    }
+
+    .message{
+      width: 85px;
+      margin-left: 10px;
+    }
+
+    .profile {
+      margin-left: 12px;
+    }
+
+    .market {
+      margin-left: 10px
     }
   }
 
@@ -137,6 +222,14 @@
     .jobs1 {
       width: 350px;
     }
+
+    .bottom {
+      width: 350px;
+    }
+
+    .profile {
+      margin-left: 10px;
+    }
   }
 
   @media screen and (width: 430px) {
@@ -154,6 +247,22 @@
 
     .jobs1 {
       width: 380px;
+    }
+
+    .bottom {
+      width: 380px;
+    }
+
+    .message{
+      width: 100px;
+    }
+
+    .profile {
+      margin-left: 20px;
+    }
+
+    .market {
+      margin-left: 15px;
     }
   }
   </style>
