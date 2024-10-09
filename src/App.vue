@@ -15,10 +15,10 @@
   <p style="font-family: Geologica; color: #636060; font-size: 12px; margin-top: -27px; text-align: right; margin-right: 15px;">Viewed 1</p>
   </div>
 
-  <div class="bottom" style="margin-left: 15px;">
-  <button class="profile"><p style="margin-top: 5px;">Profile</p></button>
-  <button class="market"><p style="margin-top: 5px;">Marketplace</p></button>
-  <button class="message"><p style="margin-top: 5px;">Messages</p></button>
+  <div class="bottom" style="margin-left: 15px; font-color: black;">
+  <button class="profile"><p style="margin-top: 5px; font-color: black;">Profile</p></button>
+  <button class="market"><p style="margin-top: 5px; font-color: black;">Marketplace</p></button>
+  <button class="message"><p style="margin-top: 5px; font-color: black;">Messages</p></button>
   </div>
 </template>
   
@@ -86,7 +86,6 @@
     margin-left: 15px;
     border: 1px solid black;
     font-family: Geologica;
-    font-color: black;
   }
 
   .market {
@@ -98,7 +97,6 @@
     margin-left: 15px;
     border: 1px solid black;
     font-family: Geologica;
-    font-color: black;
   }
 
   .message {
@@ -110,7 +108,6 @@
     margin-left: 15px;
     border: 1px solid black;
     font-family: Geologica;
-    font-color: black;
   }
 
   @media screen and (width: 390px) {
@@ -169,6 +166,7 @@
 
   .bottom {
     width: 360px;
+    margin-top: 400px;
   }
 }
 
