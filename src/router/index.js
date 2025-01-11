@@ -7,6 +7,11 @@ const routes = [
       name: 'home',
       component: () => import('../App.vue') 
     },
+    {
+      path: '/profile',
+      name: 'profile',
+      component: () => import('../Profile.vue') 
+    },
   ];
 
   const router = createRouter({
